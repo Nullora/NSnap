@@ -1,0 +1,20 @@
+CXX = g++
+CXXFLAGS = -std=c++20
+TARGET = nsnap
+
+/build{
+    sh: (CXX) (CXXFLAGS) src/(TARGET).cpp -o build/(TARGET)
+    sh: ndep dep (TARGET)
+}
+/c{
+    sh: rm build/(TARGET)
+}
+/g{
+    sh: git add . && git commit -m "bs" && git push
+}
+/p{
+    sh: git pull --no-rebase;
+}
+main{
+    fn: build
+}

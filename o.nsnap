@@ -1,0 +1,3 @@
+ndep = /home/nullora/ndep/src/main.cpp
+nsnap = /home/nullora/nsnap/src/nsnap.cpp
+o.nsnapDONOTTOUCH = nsnap
