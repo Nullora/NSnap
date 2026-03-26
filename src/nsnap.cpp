@@ -19,7 +19,7 @@ string findExt(string ext){
 //& makeFile
 void makeFile(string name){
   std::ofstream(name, ios::trunc);
-  if(auto s=findExt(name);!s.empty()){
+  if(auto s=findExt(".nsnap");!s.empty()){
     cout<<"File template created successfully. Edit it and rerun the tool.\n";
   }else{
     cout<<"Error creating file, go deal with it. \n";
