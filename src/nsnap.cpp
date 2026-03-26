@@ -113,7 +113,7 @@ void handlecommand(string cmd, string var1, string var2){
 }
 //!
 
-//&main
+//& main
 int main(int argc, char* argv[]){
   //init
   string var1="";
