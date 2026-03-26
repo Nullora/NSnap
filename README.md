@@ -19,7 +19,7 @@ cout<<"hello world \n";
 }
 //!
 ```
-Before each function, add: **//& funcname**. After each function, add: **//!** to indicate function end. You can't use this on any foreign code base.
+Before each function, add: **//& funcname**, **MAKE SURE TO INCLUDE THE SPACE BETWEEN //& AND THE ACTUAL NAME**. After each function, add: **//!** to indicate function end. You can't use this on any foreign code base unless you took time to annotate each and every function..
 - now if i run **nsnap list <filename>** on the file where HelloWorld() is, the function will be listed.
 - **nsnap get HelloWorld** will return the full function.
 # Note
